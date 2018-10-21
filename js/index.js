@@ -4,19 +4,18 @@ var allTriggerGifs = [false, false, false, false, false, false, false, false, fa
 
 var urls = [
   [
-  "url('../img/test/all/new/col-1.jpg')",
-  "url('../img/test/face1.jpg')",
-  "url('../img/test/all/new/col-3.jpg')",
-  "url('../img/test/all/new/col-4.jpg')",
-  "url('../img/test/face2.jpg')",
-  "url('../img/test/all/new/col-5.jpg')",
-  "url('../img/test/all/new/col-6.jpg')",
-  "url('../img/test/face3.jpg')",
-  "url('../img/test/get/get-1.jpg')"
+  '../img/test/all/new/col-1.jpg',
+  '../img/test/face1.jpg',
+  '../img/test/all/new/col-3.jpg',
+  '../img/test/all/new/col-4.jpg',
+  '../img/test/face2.jpg',
+  '../img/test/all/new/col-5.jpg',
+  '../img/test/all/new/col-6.jpg',
+  '../img/test/face3.jpg',
+  '../img/test/get/get-1.jpg'
 
 ],
 [
-"url('../img/test/all/new/col-7.jpg')",
 "url('../img/test/all/new/col-8.jpg')",
 "url('../img/test/face4.jpg')",
 
@@ -244,7 +243,26 @@ function activateGif (index){
   allTriggerGifs[index] = true;
   var imgsQuantity = urls[index].length;
   var activeLightbox = document.getElementsByClassName('lightbox')[index];
+  // node.style.display = "none";
+
+
+  if(!activeLightbox.hasChildNodes()){
+    urls[index].forEach(function(url){
+      // var node = document.createElement("img");
+      // node.src = url;
+      var node = document.createElement("div");
+      node.style.backgroundImage = url;
+      node.style.display = 'none';
+      activeLightbox.appendChild(node);
+    });
+setTimeout(function () {
   nextImg(index, 1, activeLightbox, imgsQuantity);
+}, 200);
+  } else {
+    nextImg(index, 1, activeLightbox, imgsQuantity);
+
+  }
+
 }
 
 function deactivateGif (index) {
@@ -253,11 +271,13 @@ function deactivateGif (index) {
 }
 
 function nextImg(setNumber, index, lightbox, quantityImg){
+  // lightbox.style.backgroundImage = "url('" + urls[setNumber][index%quantityImg] + "')";
   lightbox.style.backgroundImage = urls[setNumber][index%quantityImg];
   setTimeout(function (i) {
     if(allTriggerGifs[setNumber]){
       nextImg(setNumber, i+1, lightbox, quantityImg);
     }else{
+      // lightbox.style.backgroundImage = "url('" + urls[setNumber][index] + "')";
       lightbox.style.backgroundImage = urls[setNumber][index];
       return 0;
     }
