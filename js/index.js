@@ -4,224 +4,197 @@ var allTriggerGifs = [false, false, false, false, false, false, false, false, fa
 
 var urls = [
   [
-  "url('../img/test/all/new/col-1.jpg')",
-  "url('../img/test/face1.jpg')",
-  "url('../img/test/all/new/col-3.jpg')",
-  "url('../img/test/all/new/col-4.jpg')",
-  "url('../img/test/face2.jpg')",
-  "url('../img/test/all/new/col-5.jpg')",
-  "url('../img/test/all/new/col-6.jpg')",
-  "url('../img/test/face3.jpg')",
-  "url('../img/test/get/get-1.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-7.jpg')",
-"url('../img/test/all/new/col-8.jpg')",
-"url('../img/test/face4.jpg')",
-
-"url('../img/test/all/new/col-9.jpg')",
-"url('../img/test/all/new/col-10.jpg')",
-"url('../img/test/face5.jpg')",
-
-"url('../img/test/all/new/col-11.jpg')",
-"url('../img/test/all/new/col-12.jpg')",
-"url('../img/test/face6.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-12.jpg')",
-"url('../img/test/all/new/col-14.jpg')",
-"url('../img/test/face7.jpg')",
-
-"url('../img/test/all/new/col-15.jpg')",
-"url('../img/test/all/new/col-16.jpg')",
-"url('../img/test/face8.jpg')",
-
-"url('../img/test/all/new/col-17.jpg')",
-"url('../img/test/all/new/col-18.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-20.jpg')",
-"url('../img/test/all/new/col-21.jpg')",
-"url('../img/test/face9.jpg')",
-
-"url('../img/test/all/new/col-22.jpg')",
-"url('../img/test/all/new/col-23.jpg')",
-"url('../img/test/face10.jpg')",
-
-"url('../img/test/all/new/col-24.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-25.jpg')",
-"url('../img/test/all/new/col-26.jpg')",
-"url('../img/test/face11.jpg')",
-
-"url('../img/test/all/new/col-27.jpg')",
-"url('../img/test/all/new/col-28.jpg')",
-
-"url('../img/test/all/new/col-29.jpg')",
-"url('../img/test/all/new/col-30.jpg')",
-"url('../img/test/face13.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-32.jpg')",
-"url('../img/test/all/new/col-33.jpg')",
-"url('../img/test/face14.jpg')",
-
-"url('../img/test/all/new/col-34.jpg')",
-"url('../img/test/all/new/col-35.jpg')",
-"url('../img/test/face15.jpg')",
-
-"url('../img/test/all/new/col-36.jpg')"
-
-],
+    "url('../img/test/row1/Box1/1.jpg')",
+    "url('../img/test/row1/Box1/2.jpg')",
+    "url('../img/test/row1/Box1/3.jpg')",
+    "url('../img/test/row1/Box1/4.jpg')",
+    "url('../img/test/row1/Box1/5.jpg')",
+    "url('../img/test/row1/Box1/6.jpg')",
+    "url('../img/test/row1/Box1/7.jpg')",
+    "url('../img/test/row1/Box1/8.jpg')",
+    "url('../img/test/row1/Box1/9.jpg')"
+  ],
+  [
+    "url('../img/test/row1/Box2/1.jpg')",
+    "url('../img/test/row1/Box2/2.jpg')",
+    "url('../img/test/row1/Box2/3.jpg')",
+    "url('../img/test/row1/Box2/4.jpg')",
+    "url('../img/test/row1/Box2/5.jpg')",
+    "url('../img/test/row1/Box2/6.jpg')",
+    "url('../img/test/row1/Box2/7.jpg')",
+    "url('../img/test/row1/Box2/8.jpg')",
+    "url('../img/test/row1/Box2/9.jpg')"
+  ],
+  [
+    "url('../img/test/row1/Box3/1.jpg')",
+    "url('../img/test/row1/Box3/2.jpg')",
+    "url('../img/test/row1/Box3/3.jpg')",
+    "url('../img/test/row1/Box3/4.jpg')",
+    "url('../img/test/row1/Box3/5.jpg')",
+    "url('../img/test/row1/Box3/6.jpg')",
+    "url('../img/test/row1/Box3/7.jpg')",
+    "url('../img/test/row1/Box3/8.jpg')",
+    "url('../img/test/row1/Box3/9.jpg')"
+  ],
+  [
+    "url('../img/test/row1/Box4/1.jpg')",
+    "url('../img/test/row1/Box4/2.jpg')",
+    "url('../img/test/row1/Box4/3.jpg')",
+    "url('../img/test/row1/Box4/4.jpg')",
+    "url('../img/test/row1/Box4/5.jpg')",
+    "url('../img/test/row1/Box4/6.jpg')",
+    "url('../img/test/row1/Box4/7.jpg')",
+    "url('../img/test/row1/Box4/8.jpg')"
+  ],
+  [
+    "url('../img/test/row1/Box5/1.jpg')",
+    "url('../img/test/row1/Box5/2.jpg')",
+    "url('../img/test/row1/Box5/3.jpg')",
+    "url('../img/test/row1/Box5/4.jpg')",
+    "url('../img/test/row1/Box5/5.jpg')",
+    "url('../img/test/row1/Box5/6.jpg')",
+    "url('../img/test/row1/Box5/7.jpg')",
+    "url('../img/test/row1/Box5/8.jpg')",
+    "url('../img/test/row1/Box5/9.jpg')"
+  ],
+  [
+    "url('../img/test/row1/Box6/1.jpg')",
+    "url('../img/test/row1/Box6/2.jpg')",
+    "url('../img/test/row1/Box6/3.jpg')",
+    "url('../img/test/row1/Box6/4.jpg')",
+    "url('../img/test/row1/Box6/5.jpg')",
+    "url('../img/test/row1/Box6/6.jpg')",
+    "url('../img/test/row1/Box6/7.jpg')",
+    "url('../img/test/row1/Box6/8.jpg')",
+    "url('../img/test/row1/Box6/9.jpg')"
+  ],
 
 
-// middle row
-[
-"url('../img/test/all/new/col-37.jpg')",
-"url('../img/test/all/new/col-38.jpg')",
-"url('../img/test/face16.jpg')",
+  // middle row
+  [
+    "url('../img/test/row2/Box7/1.jpg')",
+    "url('../img/test/row2/Box7/2.jpg')",
+    "url('../img/test/row2/Box7/3.jpg')",
+    "url('../img/test/row2/Box7/4.jpg')",
+    "url('../img/test/row2/Box7/5.jpg')",
+    "url('../img/test/row2/Box7/6.jpg')",
+    "url('../img/test/row2/Box7/7.jpg')",
+    "url('../img/test/row2/Box7/8.jpg')",
+    "url('../img/test/row2/Box7/9.jpg')"
+  ],
+  [
+    "url('../img/test/row2/Box8/1.jpg')",
+    "url('../img/test/row2/Box8/2.jpg')",
+    "url('../img/test/row2/Box8/3.jpg')",
+    "url('../img/test/row2/Box8/4.jpg')",
+    "url('../img/test/row2/Box8/5.jpg')",
+    "url('../img/test/row2/Box8/6.jpg')",
+    "url('../img/test/row2/Box8/7.jpg')",
+    "url('../img/test/row2/Box8/8.jpg')",
+    "url('../img/test/row2/Box8/9.jpg')"
+  ],
+  [
+    "url('../img/test/row2/Box9/1.jpg')",
+    "url('../img/test/row2/Box9/2.jpg')",
+    "url('../img/test/row2/Box9/3.jpg')",
+    "url('../img/test/row2/Box9/4.jpg')",
+    "url('../img/test/row2/Box9/5.jpg')",
+    "url('../img/test/row2/Box9/6.jpg')",
+    "url('../img/test/row2/Box9/7.jpg')",
+    "url('../img/test/row2/Box9/8.jpg')",
+    "url('../img/test/row2/Box9/9.jpg')"
+  ],
+  [
+    "url('../img/test/row2/Box10/1.jpg')",
+    "url('../img/test/row2/Box10/2.jpg')",
+    "url('../img/test/row2/Box10/3.jpg')",
+    "url('../img/test/row2/Box10/4.jpg')",
+    "url('../img/test/row2/Box10/5.jpg')",
+    "url('../img/test/row2/Box10/6.jpg')",
+    "url('../img/test/row2/Box10/7.jpg')",
+    "url('../img/test/row2/Box10/8.jpg')"
+  ],
+  [
+    "url('../img/test/row2/Box11/1.jpg')",
+    "url('../img/test/row2/Box11/2.jpg')",
+    "url('../img/test/row2/Box11/3.jpg')",
+    "url('../img/test/row2/Box11/4.jpg')",
+    "url('../img/test/row2/Box11/5.jpg')",
+    "url('../img/test/row2/Box11/6.jpg')",
+    "url('../img/test/row2/Box11/7.jpg')",
+    "url('../img/test/row2/Box11/8.jpg')",
+    "url('../img/test/row2/Box11/9.jpg')"
+  ],
 
-"url('../img/test/all/new/col-40.jpg')",
-"url('../img/test/all/new/col-65.jpg')",
-"url('../img/test/face17.jpg')",
+  // bottom row
+  [
+    "url('../img/test/row3/Box12/1.jpg')",
+    "url('../img/test/row3/Box12/2.jpg')",
+    "url('../img/test/row3/Box12/3.jpg')",
+    "url('../img/test/row3/Box12/4.jpg')",
+    "url('../img/test/row3/Box12/5.jpg')",
+    "url('../img/test/row3/Box12/6.jpg')",
+    "url('../img/test/row3/Box12/7.jpg')",
+    "url('../img/test/row3/Box12/8.jpg')",
+    "url('../img/test/row3/Box12/9.jpg')"
+  ],
 
-"url('../img/test/all/new/col-42.jpg')",
-"url('../img/test/all/new/col-13.jpg')"
+  [
+    "url('../img/test/row3/Box13/1.jpg')",
+    "url('../img/test/row3/Box13/2.jpg')",
+    "url('../img/test/row3/Box13/3.jpg')",
+    "url('../img/test/row3/Box13/4.jpg')",
+    "url('../img/test/row3/Box13/5.jpg')",
+    "url('../img/test/row3/Box13/6.jpg')",
+    "url('../img/test/row3/Box13/7.jpg')",
+    "url('../img/test/row3/Box13/8.jpg')",
+    "url('../img/test/row3/Box13/9.jpg')"
+  ],
 
-],
-[
-"url('../img/test/all/new/col-43.jpg')",
-"url('../img/test/all/new/col-44.jpg')",
-"url('../img/test/face18.jpg')",
-
-"url('../img/test/all/new/col-45.jpg')",
-"url('../img/test/all/new/col-46.jpg')",
-"url('../img/test/face19.jpg')",
-
-"url('../img/test/all/new/col-47.jpg')",
-"url('../img/test/all/new/col-48.jpg')",
-"url('../img/test/face20.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-49.jpg')",
-"url('../img/test/all/new/col-50.jpg')",
-"url('../img/test/face21.jpg')",
-
-"url('../img/test/all/new/col-51.jpg')",
-"url('../img/test/all/new/col-52.jpg')",
-"url('../img/test/face22.jpg')",
-
-"url('../img/test/all/new/col-53.jpg')",
-"url('../img/test/all/new/col-54.jpg')",
-"url('../img/test/face23.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-55.jpg')",
-"url('../img/test/all/new/col-56.jpg')",
-"url('../img/test/face24.jpg')",
-
-"url('../img/test/all/new/col-57.jpg')",
-"url('../img/test/all/new/col-58.jpg')",
-"url('../img/test/face25.jpg')",
-
-"url('../img/test/all/new/col-60.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-61.jpg')",
-"url('../img/test/all/new/col-62.jpg')",
-"url('../img/test/face26.jpg')",
-
-"url('../img/test/all/new/col-63.jpg')",
-"url('../img/test/all/new/col-64.jpg')",
-"url('../img/test/face27.jpg')",
-
-"url('../img/test/all/new/col-66.jpg')"
-
-],
-
-// bottom row
-[
-"url('../img/test/all/new/col-4.jpg')",
-"url('../img/test/all/new/col-18.jpg')",
-"url('../img/test/face23.jpg')",
-
-"url('../img/test/all/new/col-53.jpg')",
-"url('../img/test/all/new/col-62.jpg')",
-"url('../img/test/face25.jpg')",
-
-"url('../img/test/all/new/col-67.jpg')"
-
-],
-
-[
-"url('../img/test/all/new/col-7.jpg')",
-"url('../img/test/all/new/col-25.jpg')",
-"url('../img/test/face2.jpg')",
-
-"url('../img/test/all/new/col-42.jpg')",
-"url('../img/test/all/new/col-47.jpg')",
-"url('../img/test/face34.jpg')",
-
-"url('../img/test/all/new/col-76.jpg')"
-
-],
-
-[
-"url('../img/test/all/new/col-9.jpg')",
-"url('../img/test/all/new/col-10.jpg')",
-"url('../img/test/face19.jpg')",
-
-"url('../img/test/all/new/col-33.jpg')",
-"url('../img/test/all/new/col-75.jpg')",
-"url('../img/test/face28.jpg')",
-
-"url('../img/test/get/get-8.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-12.jpg')",
-"url('../img/test/all/new/col-23.jpg')",
-"url('../img/test/face27.jpg')",
-
-"url('../img/test/all/new/col-46.jpg')",
-"url('../img/test/all/new/col-55.jpg')",
-"url('../img/test/face33.jpg')",
-
-"url('../img/test/get/get-7.jpg')"
-
-],
-[
-"url('../img/test/all/new/col-14.jpg')",
-"url('../img/test/all/new/col-27.jpg')",
-"url('../img/test/face30.jpg')",
-
-"url('../img/test/all/new/col-32.jpg')",
-"url('../img/test/all/new/col-50.jpg')",
-"url('../img/test/face31.jpg')"
-
-
-],
-[
-"url('../img/test/all/new/col-16.jpg')",
-"url('../img/test/all/new/col-38.jpg')",
-"url('../img/test/face7.jpg')",
-
-"url('../img/test/all/new/col-56.jpg')",
-"url('../img/test/all/new/col-71.jpg')",
-"url('../img/test/face8.jpg')",
-
-"url('../img/test/get/get-4.jpg')"
-
-]
+  [
+    "url('../img/test/row3/Box14/1.jpg')",
+    "url('../img/test/row3/Box14/2.jpg')",
+    "url('../img/test/row3/Box14/3.jpg')",
+    "url('../img/test/row3/Box14/4.jpg')",
+    "url('../img/test/row3/Box14/5.jpg')",
+    "url('../img/test/row3/Box14/6.jpg')",
+    "url('../img/test/row3/Box14/7.jpg')",
+    "url('../img/test/row3/Box14/8.jpg')",
+    "url('../img/test/row3/Box14/9.jpg')"
+  ],
+  [
+    "url('../img/test/row3/Box15/1.jpg')",
+    "url('../img/test/row3/Box15/2.jpg')",
+    "url('../img/test/row3/Box15/3.jpg')",
+    "url('../img/test/row3/Box15/4.jpg')",
+    "url('../img/test/row3/Box15/5.jpg')",
+    "url('../img/test/row3/Box15/6.jpg')",
+    "url('../img/test/row3/Box15/7.jpg')",
+    "url('../img/test/row3/Box15/8.jpg')",
+    "url('../img/test/row3/Box15/9.jpg')"
+  ],
+  [
+    "url('../img/test/row3/Box16/1.jpg')",
+    "url('../img/test/row3/Box16/2.jpg')",
+    "url('../img/test/row3/Box16/3.jpg')",
+    "url('../img/test/row3/Box16/4.jpg')",
+    "url('../img/test/row3/Box16/5.jpg')",
+    "url('../img/test/row3/Box16/6.jpg')",
+    "url('../img/test/row3/Box16/7.jpg')",
+    "url('../img/test/row3/Box16/8.jpg')",
+    "url('../img/test/row3/Box16/9.jpg')"
+  ],
+  [
+    "url('../img/test/row3/Box17/1.jpg')",
+    "url('../img/test/row3/Box17/2.jpg')",
+    "url('../img/test/row3/Box17/3.jpg')",
+    "url('../img/test/row3/Box17/4.jpg')",
+    "url('../img/test/row3/Box17/5.jpg')",
+    "url('../img/test/row3/Box17/6.jpg')",
+    "url('../img/test/row3/Box17/7.jpg')",
+    "url('../img/test/row3/Box17/8.jpg')",
+    "url('../img/test/row3/Box17/9.jpg')"
+  ]
 ]
 
 function myFunctionOpen() {
@@ -244,7 +217,21 @@ function activateGif (index){
   allTriggerGifs[index] = true;
   var imgsQuantity = urls[index].length;
   var activeLightbox = document.getElementsByClassName('lightbox')[index];
-  nextImg(index, 1, activeLightbox, imgsQuantity);
+
+  // if the user hovers on the img for the first time - attach all img for the animation to DOM
+  if(!activeLightbox.hasChildNodes()){
+    urls[index].forEach(function(url){
+      var node = document.createElement("div");
+      node.style.backgroundImage = url;
+      node.style.display = 'none';
+      activeLightbox.appendChild(node);
+    });
+    setTimeout(function () {
+      nextImg(index, 1, activeLightbox, imgsQuantity);
+    }, 200);
+  } else {
+    nextImg(index, 1, activeLightbox, imgsQuantity);
+  }
 }
 
 function deactivateGif (index) {
@@ -264,6 +251,13 @@ function nextImg(setNumber, index, lightbox, quantityImg){
   }, 350, index);
 }
 
+var myVideo = document.getElementById("Video");
+function playVideo () {
+  if (myVideo.paused)
+         myVideo.play();
+     else
+         myVideo.pause();
+}
 
 // function closeInternship() {
 //   document.getElementById("internshipOpen").style.display="none";
@@ -293,6 +287,7 @@ function copyToClipboard(element) {
 $(window).scroll(function() {
   var height = $(window).scrollTop();
   var slashes = document.getElementById("slashes");
+
   var brandBox = document.getElementsByClassName("box");
 
   $('.myDiv').toggleClass('scrolled', $(this).scrollTop() > 50);
@@ -313,8 +308,12 @@ $(window).scroll(function() {
   }
 
   if(height  > 800) {
+    // console.log( document.querySelector('.headTopV'));
+    if(  document.querySelector('.headTopV'))
     document.querySelector('.headTopV').style.display = 'block';
   } else {
+    // console.log( document.querySelector('.headTopV'));
+    if(  document.querySelector('.headTopV'))
     document.querySelector('.headTopV').style.display = 'none';
   }
 
@@ -351,7 +350,7 @@ $(window).scroll(function() {
     $('.carouselOffice').slick({
       slidesToShow: 1,
       dots:true,
-      arrows:false,
+      arrows:true,
       autoplay:true,
       centerMode: true,
     });
